@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53354" started-at="2020-05-09T17:11:47 EDT" finished-at="2020-05-09T17:12:40 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53354" started-at="2020-05-09T17:11:47 EDT" finished-at="2020-05-09T17:12:40 EDT">
+      <class name="com.mortgage.dataDriven.testng.DataProviderTestNG">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="setup" is-config="true" duration-ms="3517" started-at="2020-05-09T17:11:48 EDT" finished-at="2020-05-09T17:11:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mortgageCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="mortgageCalculator" duration-ms="1946" started-at="2020-05-09T17:11:51 EDT" data-provider="getTestData" finished-at="2020-05-09T17:11:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[300000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[300000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jun]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2020.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2800.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2000.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[FHA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Excellent (720+)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageCalculator -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="closing" is-config="true" duration-ms="147" started-at="2020-05-09T17:11:53 EDT" finished-at="2020-05-09T17:11:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="setup" is-config="true" duration-ms="2889" started-at="2020-05-09T17:11:54 EDT" finished-at="2020-05-09T17:11:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mortgageCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="mortgageCalculator" duration-ms="2031" started-at="2020-05-09T17:11:56 EDT" data-provider="getTestData" finished-at="2020-05-09T17:11:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[280000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[280000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aug]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2021.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2700.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[3.8]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1800.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[180.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[USDA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Excellent (720+)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageCalculator -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="closing" is-config="true" duration-ms="107" started-at="2020-05-09T17:11:59 EDT" finished-at="2020-05-09T17:11:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="setup" is-config="true" duration-ms="2860" started-at="2020-05-09T17:11:59 EDT" finished-at="2020-05-09T17:12:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mortgageCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="mortgageCalculator" duration-ms="2055" started-at="2020-05-09T17:12:01 EDT" data-provider="getTestData" finished-at="2020-05-09T17:12:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Refi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[70000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[260000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[260000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[27.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Oct]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2022.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2600.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[3.7]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1600.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[175.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[FHA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Refi]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Good (620 - 719)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageCalculator -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="closing" is-config="true" duration-ms="148" started-at="2020-05-09T17:12:04 EDT" finished-at="2020-05-09T17:12:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="setup" is-config="true" duration-ms="2452" started-at="2020-05-09T17:12:04 EDT" finished-at="2020-05-09T17:12:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mortgageCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="mortgageCalculator" duration-ms="2587" started-at="2020-05-09T17:12:06 EDT" data-provider="getTestData" finished-at="2020-05-09T17:12:09 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[60000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[250000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[250000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aug]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2023.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2400.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[3.4]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[160.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[VA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Good (620 - 719)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageCalculator -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="closing" is-config="true" duration-ms="123" started-at="2020-05-09T17:12:09 EDT" finished-at="2020-05-09T17:12:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="setup" is-config="true" duration-ms="2843" started-at="2020-05-09T17:12:09 EDT" finished-at="2020-05-09T17:12:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mortgageCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="mortgageCalculator" duration-ms="2136" started-at="2020-05-09T17:12:12 EDT" data-provider="getTestData" finished-at="2020-05-09T17:12:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[220000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[220000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Nov]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2022.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2200.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1300.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[150.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[FHA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Fair (580 - 619)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageCalculator -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="closing" is-config="true" duration-ms="103" started-at="2020-05-09T17:12:14 EDT" finished-at="2020-05-09T17:12:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="setup" is-config="true" duration-ms="2695" started-at="2020-05-09T17:12:14 EDT" finished-at="2020-05-09T17:12:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mortgageCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="mortgageCalculator" duration-ms="2607" started-at="2020-05-09T17:12:17 EDT" data-provider="getTestData" finished-at="2020-05-09T17:12:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[28.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aug]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2021.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2.6]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1200.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[130.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[VA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Fair (580 - 619)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageCalculator -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="closing" is-config="true" duration-ms="155" started-at="2020-05-09T17:12:19 EDT" finished-at="2020-05-09T17:12:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="setup" is-config="true" duration-ms="3017" started-at="2020-05-09T17:12:19 EDT" finished-at="2020-05-09T17:12:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mortgageCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="mortgageCalculator" duration-ms="2049" started-at="2020-05-09T17:12:22 EDT" data-provider="getTestData" finished-at="2020-05-09T17:12:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[220000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[220000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Nov]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2022.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2200.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1300.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[150.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[FHA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Fair (580 - 619)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageCalculator -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="closing" is-config="true" duration-ms="108" started-at="2020-05-09T17:12:24 EDT" finished-at="2020-05-09T17:12:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="setup" is-config="true" duration-ms="2419" started-at="2020-05-09T17:12:25 EDT" finished-at="2020-05-09T17:12:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mortgageCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="mortgageCalculator" duration-ms="2831" started-at="2020-05-09T17:12:27 EDT" data-provider="getTestData" finished-at="2020-05-09T17:12:30 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[28.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aug]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2021.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2.6]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1200.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[130.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[VA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Fair (580 - 619)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageCalculator -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="closing" is-config="true" duration-ms="168" started-at="2020-05-09T17:12:30 EDT" finished-at="2020-05-09T17:12:30 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="setup" is-config="true" duration-ms="2381" started-at="2020-05-09T17:12:30 EDT" finished-at="2020-05-09T17:12:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mortgageCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="mortgageCalculator" duration-ms="2736" started-at="2020-05-09T17:12:32 EDT" data-provider="getTestData" finished-at="2020-05-09T17:12:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[60000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[250000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[250000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aug]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2023.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2400.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[3.4]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[160.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[VA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Good (620 - 719)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageCalculator -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="closing" is-config="true" duration-ms="119" started-at="2020-05-09T17:12:35 EDT" finished-at="2020-05-09T17:12:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="setup" is-config="true" duration-ms="2391" started-at="2020-05-09T17:12:35 EDT" finished-at="2020-05-09T17:12:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mortgageCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="mortgageCalculator" duration-ms="2579" started-at="2020-05-09T17:12:38 EDT" data-provider="getTestData" finished-at="2020-05-09T17:12:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[28.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aug]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2021.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2.6]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1200.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[130.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[VA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Fair (580 - 619)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageCalculator -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345]" name="closing" is-config="true" duration-ms="265" started-at="2020-05-09T17:12:40 EDT" finished-at="2020-05-09T17:12:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- com.mortgage.dataDriven.testng.DataProviderTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

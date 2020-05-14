@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 09 17:11:47 EDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>53 seconds (53354 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mortgage.dataDriven.testng.DataProviderTestNG.mortgageCalculator()'><b>mortgageCalculator</b><br>Test class: com.mortgage.dataDriven.testng.DataProviderTestNG<br>Parameters: Buy, 100000.0, 300000.0, 300000.0, 30.0, Jun, 2020.0, 2800.0, 4.0, 2000.0, 200.0, FHA, Buy, Excellent (720+)</td>
+<td></td>
+<td>1</td>
+<td>com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345</td></tr>
+<tr>
+<td title='com.mortgage.dataDriven.testng.DataProviderTestNG.mortgageCalculator()'><b>mortgageCalculator</b><br>Test class: com.mortgage.dataDriven.testng.DataProviderTestNG<br>Parameters: Buy, 80000.0, 280000.0, 280000.0, 30.0, Aug, 2021.0, 2700.0, 3.8, 1800.0, 180.0, USDA, Buy, Excellent (720+)</td>
+<td></td>
+<td>2</td>
+<td>com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345</td></tr>
+<tr>
+<td title='com.mortgage.dataDriven.testng.DataProviderTestNG.mortgageCalculator()'><b>mortgageCalculator</b><br>Test class: com.mortgage.dataDriven.testng.DataProviderTestNG<br>Parameters: Refi, 70000.0, 260000.0, 260000.0, 27.0, Oct, 2022.0, 2600.0, 3.7, 1600.0, 175.0, FHA, Refi, Good (620 - 719)</td>
+<td></td>
+<td>2</td>
+<td>com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345</td></tr>
+<tr>
+<td title='com.mortgage.dataDriven.testng.DataProviderTestNG.mortgageCalculator()'><b>mortgageCalculator</b><br>Test class: com.mortgage.dataDriven.testng.DataProviderTestNG<br>Parameters: Buy, 60000.0, 250000.0, 250000.0, 30.0, Aug, 2023.0, 2400.0, 3.4, 1500.0, 160.0, VA, Buy, Good (620 - 719)</td>
+<td></td>
+<td>2</td>
+<td>com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345</td></tr>
+<tr>
+<td title='com.mortgage.dataDriven.testng.DataProviderTestNG.mortgageCalculator()'><b>mortgageCalculator</b><br>Test class: com.mortgage.dataDriven.testng.DataProviderTestNG<br>Parameters: Buy, 40000.0, 220000.0, 220000.0, 30.0, Nov, 2022.0, 2200.0, 3.0, 1300.0, 150.0, FHA, Buy, Fair (580 - 619)</td>
+<td></td>
+<td>2</td>
+<td>com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345</td></tr>
+<tr>
+<td title='com.mortgage.dataDriven.testng.DataProviderTestNG.mortgageCalculator()'><b>mortgageCalculator</b><br>Test class: com.mortgage.dataDriven.testng.DataProviderTestNG<br>Parameters: Buy, 35000.0, 200000.0, 200000.0, 28.0, Aug, 2021.0, 2000.0, 2.6, 1200.0, 130.0, VA, Buy, Fair (580 - 619)</td>
+<td></td>
+<td>2</td>
+<td>com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345</td></tr>
+<tr>
+<td title='com.mortgage.dataDriven.testng.DataProviderTestNG.mortgageCalculator()'><b>mortgageCalculator</b><br>Test class: com.mortgage.dataDriven.testng.DataProviderTestNG<br>Parameters: Buy, 40000.0, 220000.0, 220000.0, 30.0, Nov, 2022.0, 2200.0, 2.5, 1300.0, 150.0, FHA, Buy, Fair (580 - 619)</td>
+<td></td>
+<td>2</td>
+<td>com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345</td></tr>
+<tr>
+<td title='com.mortgage.dataDriven.testng.DataProviderTestNG.mortgageCalculator()'><b>mortgageCalculator</b><br>Test class: com.mortgage.dataDriven.testng.DataProviderTestNG<br>Parameters: Buy, 45000.0, 200000.0, 200000.0, 28.0, Aug, 2021.0, 2000.0, 2.6, 1200.0, 130.0, VA, Buy, Fair (580 - 619)</td>
+<td></td>
+<td>2</td>
+<td>com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345</td></tr>
+<tr>
+<td title='com.mortgage.dataDriven.testng.DataProviderTestNG.mortgageCalculator()'><b>mortgageCalculator</b><br>Test class: com.mortgage.dataDriven.testng.DataProviderTestNG<br>Parameters: Buy, 60000.0, 250000.0, 250000.0, 30.0, Aug, 2023.0, 2400.0, 3.4, 1500.0, 160.0, VA, Buy, Good (620 - 719)</td>
+<td></td>
+<td>2</td>
+<td>com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345</td></tr>
+<tr>
+<td title='com.mortgage.dataDriven.testng.DataProviderTestNG.mortgageCalculator()'><b>mortgageCalculator</b><br>Test class: com.mortgage.dataDriven.testng.DataProviderTestNG<br>Parameters: Buy, 35000.0, 200000.0, 200000.0, 28.0, Aug, 2021.0, 2000.0, 2.6, 1200.0, 130.0, VA, Buy, Fair (580 - 619)</td>
+<td></td>
+<td>2</td>
+<td>com.mortgage.dataDriven.testng.DataProviderTestNG@68bbe345</td></tr>
+</table><p>
+</body>
+</html>
